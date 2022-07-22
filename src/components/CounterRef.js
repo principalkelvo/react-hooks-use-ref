@@ -4,7 +4,7 @@ function CounterRef() {
   const count = useRef(0);
 
   function handleClick() {
-    count.current = count.current + 1;
+    count.current = count.current + 1; //It looks like this: { current: 0 }
     console.log(count.current);
   }
 
